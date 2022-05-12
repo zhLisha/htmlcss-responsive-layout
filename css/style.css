@@ -44,7 +44,7 @@ body {
 /**********************
         MAIN 
 ************************/
-/* Section 1 */
+/* Section 1 ------------------------------------------ */
 .top-columns{
     padding-top: 2.5rem;
     padding-bottom: 4rem;
@@ -66,7 +66,7 @@ body {
     padding-bottom: 1.3rem;
 }
 
-/* Section 2 */
+/* Section 2 -------------------------------------------*/
 .strategic-planning {
     background-color: #9792e4;
     padding-bottom: 4rem;
@@ -75,6 +75,10 @@ body {
 
 .strategic-content {
     text-align: center;
+}
+
+.strategic-content.left {
+    color: white;
 }
 
 .strategic-content.left img{
@@ -105,6 +109,42 @@ body {
 }
 .strategic-content p{
     padding-bottom: 3rem;
+}
+
+/* Section 3 -------------------------------------------*/
+.testimonial-intro, .testimonial-content {
+    text-align: center;
+    padding-top: 2rem;
+}
+.testimonial-content {
+    padding-bottom: 5rem;
+}
+
+.testimonial-info{
+    padding-top: 3rem;
+}
+
+.testimonial-content img{
+
+    /* TEST */
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.testimonial-content .col{
+    border-radius: 60px;
+    background-color: #9792e4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial-intro h2{    
+    color: #9792e4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 /************************
