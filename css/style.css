@@ -1,0 +1,80 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.padding-vertical{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+.head-menu {
+    color: white;
+    height: 70px;
+    background-color: #0084fd;
+}
+.actions{
+    display: none;
+}
+.head-menu .container {
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+/* MENU */
+.columns{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+.col{
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    /* TEST */
+    border-radius: 10px;
+    background-color: #b5ddff;
+}
+
+
+
+
+/************************
+MEDIA QUERTY Mobile First
+************************/
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .columns {
+        display: flex;
+    }
+    .col {
+        justify-content: space-between;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .actions{
+        display: block;
+    }
+    .menu-humburger {
+        display: none;
+    }
+}
