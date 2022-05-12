@@ -41,14 +41,21 @@ body {
 
 /* MAIN */
 .top-columns{
-    padding-top: 1.3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
 }
 .col{
-    margin: 2rem 0;
-    flex-wrap: wrap;
-    /* TEST */
-    border-radius: 20px;
+    padding: 1rem 0; 
+}
+
+.general-info p{
     background-color: #b5ddff;
+    border-radius: 20px;
 }
 
 .bottom-columns {
@@ -64,33 +71,20 @@ MEDIA QUERTY Mobile First
 /* TABLET */
 @media screen and (min-width: 768px) {
     .columns {
-        display: flex;
-        justify-content: space-between;
-        margin-left: -1rem;
-        margin-right: -1rem;
+        padding-right: -1rem;
+        padding-left: -1rem;
     }
 
     .top-columns .col{
         margin-bottom: 0;
         width: calc(100% / 3);
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .top-columns .col:first-child{
-        width: calc((100% / 3) * 2.14 );
+        width: calc((100% / 3) * 2 );
     }
-
-
-    .web-designer,
-    .developer,
-    .branding {
-        width: calc((100% / 3));
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    }
-
 
 }
 
