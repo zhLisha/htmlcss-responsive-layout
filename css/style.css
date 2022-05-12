@@ -132,15 +132,38 @@ MEDIA QUERTY Mobile First
         width: calc((100% / 3) * 2 );
     }
 
-    /* Section 2 */
 }
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+
+    /* HEADER */
     .actions{
         display: block;
     }
     .menu-humburger {
         display: none;
+    }
+
+    /* MAIN */
+    /* Section 2 */
+    .strategic-planning {
+        padding-top: 8rem;
+    }
+    .strategic-planning .container{
+        display: flex;
+        max-width: 850px;
+        justify-content: space-between;
+    }
+    .strategic-content{
+        width: calc((100% / 2) - 2rem);
+        
+    }
+    .strategic-content.left p{
+        text-align: left;
+    }
+
+    .strategic-content.right{
+        align-self: flex-end;
     }
 }
