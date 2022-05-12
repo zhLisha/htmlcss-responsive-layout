@@ -198,6 +198,7 @@ a {
     color: white;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    text-align: center;
 }
 .benefits .button{
     padding-top: 2.5rem;
@@ -253,6 +254,25 @@ MEDIA QUERTY Mobile First
         width: 70%;
         text-align: left;
         
+    }
+
+    /* Section 4 */
+    .benefits {
+        padding-bottom: 3.5rem;
+    }
+
+    .benefits h2{
+        padding-bottom: 2.5rem;
+    }
+
+    .benefits .benefits-columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-columns .col{
+        width: calc((100% / 2) - 1rem);
     }
 }
 
