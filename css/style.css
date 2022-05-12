@@ -315,4 +315,9 @@ MEDIA QUERTY Mobile First
         width: 75%;
         padding-top: 2rem;
     }
+
+    /* Section 4 */
+    .benefits-columns .col{
+        width: calc((100% / 3) - 1rem);
+    }
 }
