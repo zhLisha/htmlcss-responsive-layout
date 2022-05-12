@@ -24,7 +24,9 @@ body {
     display: flex;
 }
 
-/* HEADER */
+/******************
+      HEADER 
+********************/
 .head-menu {
     color: white;
     height: 70px;
@@ -39,14 +41,16 @@ body {
     align-items: center;
 }
 
-/* MAIN */
+/**********************
+        MAIN 
+************************/
+/* Section 1 */
 .top-columns{
     padding-top: 2.5rem;
     padding-bottom: 4rem;
 }
 
 .columns{
-    display: flex;
     flex-wrap: wrap;
 }
 .col{
@@ -62,6 +66,8 @@ body {
     padding-bottom: 1.3rem;
 }
 
+/* Section 2 */
+
 
 
 /************************
@@ -70,9 +76,12 @@ MEDIA QUERTY Mobile First
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+
+    /* MAIN/ */
+    /* Section 1 */
     .columns {
-        padding-right: -1rem;
-        padding-left: -1rem;
+        margin-right: -1rem;
+        margin-left: -1rem;
     }
 
     .top-columns .col{
@@ -85,6 +94,8 @@ MEDIA QUERTY Mobile First
     .top-columns .col:first-child{
         width: calc((100% / 3) * 2 );
     }
+
+    /* Section 2 */
 
 }
 
