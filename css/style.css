@@ -23,7 +23,24 @@ body {
 .flex {
     display: flex;
 }
+h2{
+    font-size: 2.5rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 
+.btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 8px 60px;
+    border-radius: 50px;
+}
+
+.btn.purple {
+    background-color: #9792e4;
+}
 /******************
       HEADER 
 ********************/
@@ -99,7 +116,7 @@ body {
     background-color: darkorange;
 }
 
-.strategic-content h1{
+.strategic-content h2{
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
@@ -146,7 +163,6 @@ body {
     color: #9792e4;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 2.5rem;
 }
 
 .testimonial-info p{
@@ -154,6 +170,47 @@ body {
     width: 85%;
     padding-top: 1rem;
 }
+
+/* Section 4 --------------------------- */
+.benefits {
+    background-color: #9792e4;
+}
+.benefits h3, .benefits h4{
+    color: #9792e4;
+}
+
+.benefits h3 {
+    font-size: 3.4rem;
+    padding-top: 1.5rem;
+}
+
+.benefits h4 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.benefits .col-content{
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+}
+.benefits h2{
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.benefits .button{
+    padding-top: 2.5rem;
+}
+
+.benefits .col-text{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+
 
 
 
