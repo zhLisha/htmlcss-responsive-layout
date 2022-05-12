@@ -39,19 +39,21 @@ body {
     align-items: center;
 }
 
-/* MENU */
-.columns{
+/* MAIN */
+.top-columns{
     padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
 }
 .col{
     margin: 2rem 0;
     flex-wrap: wrap;
     /* TEST */
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #b5ddff;
 }
 
+.bottom-columns {
+    padding-bottom: 1.3rem;
+}
 
 
 
@@ -63,10 +65,33 @@ MEDIA QUERTY Mobile First
 @media screen and (min-width: 768px) {
     .columns {
         display: flex;
-    }
-    .col {
         justify-content: space-between;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
+
+    .top-columns .col{
+        margin-bottom: 0;
+        width: calc(100% / 3);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .top-columns .col:first-child{
+        width: calc((100% / 3) * 2.14 );
+    }
+
+
+    .web-designer,
+    .developer,
+    .branding {
+        width: calc((100% / 3));
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    }
+
+
 }
 
 /* DESKTOP */
