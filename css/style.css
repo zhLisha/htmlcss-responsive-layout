@@ -235,7 +235,7 @@ p {
 }
 
 
-/* Section 5 */
+/* Section 5 --------------------------------------*/
 .about-us {
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -279,7 +279,7 @@ p {
     padding-right: 0.5rem;
 }
 
-/* Section 6 */
+/* Section 6 -----------------------------------*/
 .get-started {
     background-color: #9792e4;
     color: white;
@@ -323,6 +323,35 @@ p {
 .copyright a{
     text-decoration: underline;
 }
+
+/*********************
+        FOOTER 
+***********************/
+
+footer{
+    background-color:  #333;
+}
+.footer-content{
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}
+
+.footer-content p{
+    line-height: 1.3rem;
+    padding-bottom: 3.7rem;
+}
+
+.policy a{
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
