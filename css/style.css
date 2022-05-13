@@ -292,7 +292,7 @@ p {
 }
 
 .get-started-text span{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .get-started-text h2{
@@ -433,6 +433,26 @@ MEDIA QUERTY Mobile First
     }
     .about-us-text h2{
         font-size: 4rem;
+     }
+
+     /* Section 6 */
+     .get-started {
+        
+     }
+
+     .get-started-content {
+        margin: 0 auto;
+        width: 70%;
+     }
+
+     .get-started-text h2{
+         font-size: 2.7rem;
+     }
+
+     .get-started-text p{
+         margin: 0 auto;
+         width: 85%;
+         max-width: 450px;
      }
 }
 
