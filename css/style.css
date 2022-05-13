@@ -352,9 +352,6 @@ footer{
 
 
 
-
-
-
 /************************
 MEDIA QUERTY Mobile First
 ************************/
@@ -483,6 +480,13 @@ MEDIA QUERTY Mobile First
          width: 85%;
          max-width: 450px;
      }
+
+     /* FOOTER */
+     .footer-content p{
+         width: 50%;
+        max-width: 370px;
+        margin: 0 auto;
+    }
 }
 
 /* DESKTOP */
