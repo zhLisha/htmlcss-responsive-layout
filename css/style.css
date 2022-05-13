@@ -73,6 +73,10 @@ ul{
     list-style-type: none;
 }
 
+.col{
+    padding: 1rem 0;
+}
+
 /******************
       HEADER 
 ********************/
@@ -460,15 +464,6 @@ MEDIA QUERTY Mobile First
         padding-top: 3rem;
     }
 
-    /* .clear-code{
-        background-color: #b5ddff;
-        border-radius: 20px;
-    }
-
-    .columns {
-        margin: -1rem -1rem;
-    } */
-
     /* Section 3 */
     .testimonial-info{
         padding-top: 2rem;
@@ -601,6 +596,15 @@ MEDIA QUERTY Mobile First
 
     .strategic-content.right{
         align-self: flex-end;
+    }
+
+    .demo .top-columns-content{
+        display: flex;
+        width: 90%;
+    }
+
+    .demo .top-columns-content img{
+        width: 270px;
     }
 
     /* Section 3 */
