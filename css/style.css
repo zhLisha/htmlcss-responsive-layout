@@ -69,6 +69,10 @@ p {
     line-height: 1.9rem;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /******************
       HEADER 
 ********************/
@@ -86,6 +90,23 @@ p {
     align-items: center;
 }
 
+.menu-humburger a{
+    font-size: 1.5rem;
+}
+
+.actions li{
+    padding-right: 2rem;
+}
+
+
+.actions .btn{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 7px 15px;
+}
+
 /**********************
         MAIN 
 ************************/
@@ -98,18 +119,63 @@ p {
 .columns, .strategic-content{
     flex-wrap: wrap;
 }
-.col{
+.general-info .col{
     padding: 1rem 0; 
+    
+}
+.top-columns-content{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.general-info p{
+.col-background {
     background-color: #b5ddff;
     border-radius: 20px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.demo .top-columns-content{
+    text-align: left;
 }
 
 .bottom-columns {
     padding-bottom: 1.3rem;
 }
+
+.clear-code i,
+.web-designer i,
+.developer i,
+.branding i{
+    color: #0084fd;
+    font-size: 80px;
+    padding-bottom: 2rem;
+}
+
+.columns h3{
+    color: #0084fd;
+    padding-bottom: 1.5rem;
+    font-size: 1.9rem;
+}
+
+.top-columns-content .button{
+    padding-top: 2rem;
+}
+
+.top-columns-content .btn{
+    background-color: #0084fd;
+    color: white;
+}
+.top-columns-content i {
+    padding-right: 0.5rem;
+}
+
+.top-columns-img img{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 3rem;
+}
+
 
 /* Section 2 -------------------------------------------*/
 .strategic-planning {
@@ -388,6 +454,20 @@ MEDIA QUERTY Mobile First
     .top-columns .col:first-child{
         width: calc((100% / 3) * 2 );
     }
+
+    .top-columns-img img{
+        width: 65%;
+        padding-top: 3rem;
+    }
+
+    /* .clear-code{
+        background-color: #b5ddff;
+        border-radius: 20px;
+    }
+
+    .columns {
+        margin: -1rem -1rem;
+    } */
 
     /* Section 3 */
     .testimonial-info{
