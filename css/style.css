@@ -53,6 +53,7 @@ a {
     font-weight: 700;
     padding: 8px 60px;
     border-radius: 50px;
+
 }
 
 .btn.purple {
@@ -192,41 +193,63 @@ ul{
     text-align: center;
 }
 
+.strategic-content p{
+    padding-bottom: 1.5rem;
+}
+
+.strategic-content h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 .strategic-content.left {
     color: white;
 }
 
 .strategic-content.left img{
-
-    /* TEST */
-    height: 300px;
     width: 100%;
-    background-color: darkorange;
 }
+
+.strategic-content.left{
+    text-align: left;
+}
+
+.strategic-content.left h2{
+    padding-top: 4rem;
+    padding-bottom: 2rem; 
+    font-size: 2rem;  
+}
+
+.strategic-content.right h2{
+    font-size: 2rem;
+}
+
 .strategic-content.right{
     border-radius: 60px;
     background-color: white;
-    padding-top: 3rem;
-}
-.strategic-content.right img{
-    height: 250px;
-    width: 200px;
-    background-color: darkorange;
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
 }
 
-.strategic-content h2{
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-}
-.strategic-content h2{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.strategic-content p{
-    padding-bottom: 3rem;
-    margin: 0 auto;
+.strategic-content.right p{
     width: 85%;
+    margin: 0 auto;
 }
+.strategic-content.right img{
+    width: 100%;
+}
+
+.strategic-planning .button a{
+    background-color: #9792e4;
+    padding: 0.8rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 12px;
+}
+
 
 /* Section 3 -------------------------------------------*/
 .testimonial-intro, .testimonial-content {
@@ -263,6 +286,7 @@ ul{
     margin: 0 auto;
     width: 85%;
     padding-top: 1rem;
+   
 }
 
 /* Section 4 --------------------------- */
@@ -590,13 +614,6 @@ MEDIA QUERTY Mobile First
         width: calc((100% / 2) - 2rem);
         
     }
-    .strategic-content.left p{
-        text-align: left;
-    }
-
-    .strategic-content.right{
-        align-self: flex-end;
-    }
 
     .demo .top-columns-content{
         display: flex;
@@ -606,6 +623,24 @@ MEDIA QUERTY Mobile First
     .demo .top-columns-content img{
         width: 270px;
     }
+
+    .strategic-content.left p{
+        text-align: left;
+    }
+
+    .strategic-content.right{
+        align-self: flex-end;
+    }
+
+    .strategic-content.right img{
+        width: 70%;
+    }
+
+    .strategic-content.right h2{
+        font-size: 1.5rem;
+    }
+
+
 
     /* Section 3 */
     .testimonial-info p{
