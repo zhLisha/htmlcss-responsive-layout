@@ -253,8 +253,10 @@ a {
     color: #9792e4;
     font-size: 60px;
     position: absolute;
-    left: 175px;
-    bottom: 500px;
+    /* left: 175px;
+    bottom: 500px; */
+    left: 9.5rem;
+    bottom: 28.5rem;
 }
 
 .about-us .btn{
@@ -265,6 +267,18 @@ a {
 /************************
 MEDIA QUERTY Mobile First
 ************************/
+
+@media screen and (min-width: 532px) {
+    .about-us-text i{
+        bottom: 26rem;
+    }
+}
+@media screen and (min-width: 694px) {
+    .about-us-text i{
+        bottom: 23.5rem;
+    }
+}
+
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -322,6 +336,43 @@ MEDIA QUERTY Mobile First
     .benefits-columns .col{
         width: calc((100% / 2) - 1rem);
     }
+
+    /* Section 5 */
+    .about-us {
+        padding-top: 5rem;
+    }
+
+    .about-us-content{
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 900px;
+        
+    }
+
+    .about-us-text p{
+       width: 80%;
+    }
+
+    .about-us-text i{
+        left: 9.5rem;
+        top: 0rem;
+    }
+
+    .about-us.right a{
+        font-size: 0.9rem;
+    }
+
+    .about-us.right {
+        padding-top: 0rem;
+    }
+
+    .about-us-text h3{
+       font-size: 1.5rem;
+    }
+    .about-us-text h2{
+        font-size: 4rem;
+     }
 }
 
 /* DESKTOP */
