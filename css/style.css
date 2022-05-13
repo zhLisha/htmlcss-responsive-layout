@@ -262,6 +262,13 @@ ul{
 
 .testimonial-info{
     padding-top: 3rem;
+    color: white;
+}
+
+.testimonial-info span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 80px;
 }
 
 .container-testimonial{
@@ -272,7 +279,7 @@ ul{
 .testimonial-content .col{
     border-radius: 60px;
     background-color: #9792e4;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-bottom: 2rem;
 }
 
@@ -285,8 +292,6 @@ ul{
 .testimonial-info p{
     margin: 0 auto;
     width: 85%;
-    padding-top: 1rem;
-   
 }
 
 /* Section 4 --------------------------- */
@@ -491,6 +496,7 @@ MEDIA QUERTY Mobile First
     /* Section 3 */
     .testimonial-info{
         padding-top: 2rem;
+        position: relative;
     }
     .testimonial-info .col{
         display: flex;
@@ -502,7 +508,6 @@ MEDIA QUERTY Mobile First
         width: 65%;
         text-align: left;
         padding-top: 2rem;
-        
     }
 
     /* Section 4 */
