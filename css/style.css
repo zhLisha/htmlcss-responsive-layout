@@ -188,6 +188,7 @@ a {
 /* Section 4 --------------------------- */
 .benefits {
     background-color: #9792e4;
+    padding-bottom: 3rem;
 }
 .benefits h3, .benefits h4{
     color: #9792e4;
@@ -211,7 +212,7 @@ a {
 .benefits h2{
     color: white;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2.8rem;
     text-align: center;
 }
 .benefits .button{
@@ -224,9 +225,41 @@ a {
 }
 
 
+/* Section 5 */
+.about-us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
 
+.about-us h2{
+    color: #9792e4;
+    padding-bottom: 2rem;
+}
 
+.about-us-text p{
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+}
 
+.about-us h3{
+    color: #9792e4;
+    font-size: 1.8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.about-us-text i{
+    color: #9792e4;
+    font-size: 60px;
+    position: absolute;
+    left: 175px;
+    bottom: 500px;
+}
+
+.about-us .btn{
+    padding: 8px 20px;
+}
 
 
 /************************
