@@ -28,7 +28,7 @@ h2{
 }
 a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .img{
@@ -56,7 +56,17 @@ a {
 }
 
 .btn.purple {
+    color: white;
     background-color: #9792e4;
+}
+
+.btn.white {
+    background-color: white;
+    color: #9792e4;
+}
+
+p {
+    line-height: 1.9rem;
 }
 
 /******************
@@ -228,7 +238,7 @@ a {
 /* Section 5 */
 .about-us {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     position: relative;
 }
 
@@ -240,6 +250,9 @@ a {
 .about-us-text p{
     padding-bottom: 3rem;
     line-height: 2.5rem;
+}
+.about-us.right{
+    padding-top: 0;
 }
 
 .about-us h3{
@@ -253,15 +266,64 @@ a {
     color: #9792e4;
     font-size: 60px;
     position: absolute;
-    /* left: 175px;
-    bottom: 500px; */
     left: 9.5rem;
-    bottom: 28.5rem;
+    top: 0;
 }
 
 .about-us .btn{
     padding: 8px 20px;
+    font-weight: 300;
 }
+
+.about-us .button i{
+    padding-right: 0.5rem;
+}
+
+/* Section 6 */
+.get-started {
+    background-color: #9792e4;
+    color: white;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.get-started-content{
+    text-align: center;
+}
+
+.get-started-text span{
+    font-size: 1.5rem;
+}
+
+.get-started-text h2{
+    font-size: 2.16rem;
+    padding-top: 1.5rem;
+}
+
+
+.get-started-text h3 {
+    font-size: 4rem;
+    color: #fdc15f;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+.get-started-content .button {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.get-started-content .btn{
+    padding: 20px 90px;
+    font-size: 1.2rem;
+}
+
+.copyright p{
+    font-size: 0.9rem;
+}
+
+.copyright a{
+    text-decoration: underline;
+}
+
 
 
 /************************
@@ -356,7 +418,6 @@ MEDIA QUERTY Mobile First
 
     .about-us-text i{
         left: 9.5rem;
-        top: 0rem;
     }
 
     .about-us.right a{
